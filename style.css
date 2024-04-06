@@ -1,0 +1,76 @@
+html, body{
+    width: 100%;
+    max-width: 100vw;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+h1, ul, p{
+    color:black;
+}
+
+.index{
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    background: rgb(73, 140, 195);
+    width: 700px;
+    height: 350px;
+    padding: 16px;
+    text-align: left;
+    font-size: 20px;
+    margin: 100px;
+}
+
+.resume{
+    text-align: left;
+    background: rgb(73, 140, 195);
+    width: 700px;
+    height: 1000px;
+    padding: 16px;
+    text-align: left;
+    font-size: 20px;
+    margin: 100px;
+}
+
+.portfolio{
+    text-align: left;
+    background: rgb(73, 140, 195);
+    width: 700px;
+    height: 545px;
+    padding: 16px;
+    text-align: left;
+    font-size: 20px;
+    margin: 50px;
+}
+
+.contact{
+    text-align: left;
+    background: rgb(73, 140, 195);
+    width: 700px;
+    height: 200px;
+    padding: 16px;
+    text-align: left;
+    font-size: 20px;
+    margin: 50px;
+}
+
+button{
+   background-color: white;
+   border-radius: 5px;
+   border: none;
+   padding: 9px;
+   font-size: 15px;
+   cursor: pointer;
+}
+
+.button-container {
+   display: flex;
+   gap: 10px;
+}
